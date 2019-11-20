@@ -1,0 +1,132 @@
+body{
+  font-family: 'Alegreya Sans', sans-serif;
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    padding-bottom: 20px;
+    color:white;
+}
+
+/* Title section */
+.title{
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
+  padding: 5px;
+    text-align: center;
+}
+.title-sub{
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 1rem;
+    text-align: center;
+}
+.title-section{
+  /* text-align: center; */
+  /* background-color: #28a745; */
+  background-color: #77a8a8;
+  color: white;
+}
+.title-row{
+  margin-right: 0;
+}
+@media(max-width: 602px){
+  .title-tree-left{
+  display:none;
+  }
+}
+
+.text-block{
+  text-align: justify;
+  padding: 15px 0 15px 0;
+}
+
+/* Welcome */
+.welcome-img{
+    margin: 15px 0 15px 0;
+}
+
+/* buttons */
+.button-search
+{
+  background-color: #fff;
+  border-color: #77a8a8;
+  color: #77a8a8;
+}
+.button-search:hover{
+  background-color: #77a8a8;
+  border-color: #fff;
+  color: #fff;
+}
+
+/* Card section */
+.card-section{
+  /* background-color: #f8f9fa; */
+  background-color: #e4d1d1;
+  /* color:#77a8a8; */
+}
+.card-custom{
+  border: solid 3px white;
+  margin-bottom: 10px;
+}
+.card-button
+{
+  background-color: #fff;
+  border-color: #b9b0b0;
+  color: #b9b0b0;
+}
+.card-button:hover{
+  background-color: #b9b0b0;
+  border-color: #fff;
+  color: #fff;
+}
+
+/* DidsburyInBloom section */
+.section-inbloom{
+  background-color: #f8f9fa;
+}
+.img-inbloom{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid lightgrey;
+  border-radius: 5%;
+}
+
+/* Gallery Section */
+.gallery-image{
+  width: 75%;
+  /* border-radius: 100%; */
+  margin: 20px;
+  border: solid 2px white;
+}
+.gallery-text{
+  font-family: 'Pacifico', cursive;
+  /* font-weight: bold; */
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.section-gallery{
+  /* background-color: #28a745; */
+  background-color: #77a8a8;
+  color: white;
+}
+
+/* footer section */
+.footer-logo {
+  margin: 7px;
+}
+
+/* containers */
+.container-fluid{
+  padding: 2% 15%;
+  text-align: center;
+}
+.coloured-section{
+    background-color: #f8f9fa;
+}
+
+
+.colour-palet{
+  background-color: #a8e6cf;
+  color: #fdffab;
+  caret-color: #ffd3b6;
+  column-rule-color: #ffaaa5;
+}
