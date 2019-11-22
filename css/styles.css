@@ -1,5 +1,6 @@
 body{
   font-family: 'Alegreya Sans', sans-serif;
+  font-size: 1rem;
 }
 h1{
     font-family: 'Pacifico', cursive;
@@ -124,9 +125,16 @@ h1{
 }
 
 
-.colour-palet{
+/* .colour-palet{
   background-color: #a8e6cf;
   color: #fdffab;
   caret-color: #ffd3b6;
   column-rule-color: #ffaaa5;
-}
+} */
+/* HEX: #e4d1d1
+
+HEX: #b9b0b0
+
+HEX: #d9ecd0
+
+HEX: #77a8a8 */
