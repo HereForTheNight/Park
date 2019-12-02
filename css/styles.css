@@ -1,6 +1,6 @@
 body{
   font-family: 'Alegreya Sans', sans-serif;
-  font-size: 1rem;
+  font-size: 1.5em;
 }
 h1{
     font-family: 'Pacifico', cursive;
@@ -11,14 +11,14 @@ h1{
 /* Title section */
 .title{
   font-family: 'Pacifico', cursive;
-  font-size: 2.5rem;
-  padding: 5px;
-    text-align: center;
+  font-size: 3rem;
+  padding: 15px;
+  text-align: center;
 }
 .title-sub{
   font-family: 'Alegreya Sans', sans-serif;
-  font-size: 1rem;
-    text-align: center;
+  font-size: 1.7rem;
+  text-align: center;
 }
 .title-section{
   /* text-align: center; */
@@ -29,10 +29,9 @@ h1{
 .title-row{
   margin-right: 0;
 }
-@media(max-width: 602px){
-  .title-tree-left{
-  display:none;
-  }
+.title-tree-left{
+  /* height: 100%; */
+  width: 143px;
 }
 
 .text-block{
@@ -112,7 +111,8 @@ h1{
 
 /* footer section */
 .footer-logo {
-  margin: 7px;
+  margin: 10px;
+  font-size: 1.5rem;
 }
 
 /* containers */
